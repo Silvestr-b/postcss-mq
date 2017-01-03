@@ -1,4 +1,4 @@
-# PostCSS Mq [![Build Status][ci-img]][ci]
+# PostCSS MQ [![Build Status][ci-img]][ci]
 
 [PostCSS] plugin Make Media-Queries very easy to use. Try it!.
 
