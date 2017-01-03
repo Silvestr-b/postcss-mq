@@ -23,7 +23,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "chai": "^3.5.0",
     "postcss": "^5.2.8"
+  },
+  "dependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
   }
 }
