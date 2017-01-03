@@ -8,23 +8,23 @@
 
 From:
 ```css
-.block{
+.block {
     color: red; 
 	margin: s(4px), m(8px) 
 }
 ```
 To:
 ```css
-.block{
+.block {
   	color: red 
 }
 @media (min-width: 320px){
-  	.block{
+  	.block {
   	  	margin: 4px 
   	} 
 }
 @media (min-width: 460px){
-  	.block{
+  	.block {
   	  	margin: 8px 
   	} 
 }
