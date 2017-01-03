@@ -8,7 +8,8 @@
 
 From:
 ```css
-.block{ 
+.block{
+    color: red; 
 	margin: s(4px), m(8px) 
 }
 ```
