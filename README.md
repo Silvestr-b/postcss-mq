@@ -17,12 +17,12 @@ To:
 .block{
   	color: red 
 }
-@media -s-{
+@media (min-width: 320px){
   	.block{
   	  	margin: 4px 
   	} 
 }
-@media -m-{
+@media (min-width: 460px){
   	.block{
   	  	margin: 8px 
   	} 
