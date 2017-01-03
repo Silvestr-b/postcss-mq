@@ -6,22 +6,41 @@
 [ci-img]:  https://travis-ci.org/Silvestr-b/postcss-mq.svg
 [ci]:      https://travis-ci.org/Silvestr-b/postcss-mq
 
+From:
 ```css
-.foo {
-    /* Input example */
+.block{ 
+	margin: s(4px), m(8px) 
 }
 ```
-
+To:
 ```css
-.foo {
-  /* Output example */
+.block{
+  	color: red 
+}
+@media -s-{
+  	.block{
+  	  	margin: 4px 
+  	} 
+}
+@media -m-{
+  	.block{
+  	  	margin: 8px 
+  	} 
 }
 ```
 
 ## Usage
 
 ```js
-postcss([ require('postcss-mq') ])
+const options = {
+	sizes: {
+		xxs: '(min-width: 320px)', 
+		xs: '(min-width: 460px)',
+		// ...[s,m,l,xl,xxl]
+	}
+}
+
+postcss([ require('postcss-mq')(options) ])
 ```
 
 See [PostCSS] docs for examples for your environment.
