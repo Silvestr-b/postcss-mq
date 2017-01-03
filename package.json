@@ -1,0 +1,29 @@
+{
+  "name": "postcss-mq",
+  "version": "0.1.0",
+  "description": "PostCSS plugin make Media-Queries very easy to use. Try it!",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "media-queries",
+    "mq",
+    "adaptive",
+    "responsive"
+  ],
+  "author": "Silvestr Baibuz <silvestr-b@yandex.ru>",
+  "license": "MIT",
+  "repository": "Silvestr-b/postcss-mq",
+  "bugs": {
+    "url": "https://github.com/Silvestr-b/postcss-mq/issues"
+  },
+  "homepage": "https://github.com/Silvestr-b/postcss-mq",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "postcss": "^5.2.8"
+  }
+}
